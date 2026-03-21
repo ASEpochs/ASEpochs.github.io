@@ -11,6 +11,7 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.intro %}<p class="author__intro">{{ author.intro }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -215,4 +216,18 @@
       {% endif %}
     </div>
   </div>
+
+  {% if author.wechat %}
+    <div class="author__wechat">
+      {% if author.wechat.title %}
+        <h4 class="author__wechat-title">{{ author.wechat.title }}</h4>
+      {% endif %}
+      {% if author.wechat.description %}
+        <p class="author__wechat-description">{{ author.wechat.description }}</p>
+      {% endif %}
+      {% if author.wechat.image %}
+        <img src="{{ author.wechat.image | relative_url }}" class="author__wechat-image" alt="{{ author.wechat.title | default: 'WeChat QR code' }}">
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
