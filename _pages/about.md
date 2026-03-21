@@ -27,7 +27,7 @@ To date, I have published one paper accepted by ECAI 2025 as the first author or
 
 
 
-# 📖 Education
+# 📖 Education Background 
 - *2024.09 - 2027.06 (expected)*, Master’s student in Computer Science and Technology (Artificial Intelligence), School of Information Engineering, Henan University of Science and Technology. <span style="color:red;"> Currently ranked **1st** in the program.</span>
 - *2020.09 - 2024.06*, Bachelor’s degree in Software Engineering, School of Software, Henan University of Science and Technology. Average score: **91.85**, ranked in the **top 3%** of the program.
 
