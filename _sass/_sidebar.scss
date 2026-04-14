@@ -138,19 +138,47 @@
 }
 
 .author__bio {
-  margin: 0;
+  margin: 0.25rem 0 0;
+  line-height: 1.6;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0.35rem;
+    margin-bottom: 0;
   }
 }
 
 .author__intro {
-  margin: 0.5rem 0 0;
+  margin: 0.85rem 0 1rem;
+  padding: 0.8rem 0.95rem;
+  border-left: 3px solid #d97706;
+  border-radius: 0 12px 12px 0;
+  background: linear-gradient(90deg, rgba(217, 119, 6, 0.12) 0%, rgba(217, 119, 6, 0.04) 100%);
   font-size: $type-size-6;
+  line-height: 1.7;
+  color: mix(#7c2d12, $gray, 70%);
+  box-shadow: 0 8px 20px rgba(217, 119, 6, 0.08);
+}
+
+.author__site-description {
+  margin-bottom: 0.9rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  background: #fafafa;
+  white-space: normal;
+  line-height: 1.65;
+}
+
+.author__meta-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.author__meta-text {
+  display: inline-block;
+  white-space: normal;
   line-height: 1.6;
-  color: mix(red, $gray, 65%);
 }
 
 .author__urls-wrapper {
@@ -171,6 +199,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 0.15rem;
   }
 
   button {
@@ -242,11 +271,15 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    margin-bottom: 0.45rem;
+    line-height: 1.6;
   }
 
   a {
-    display: block;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.35rem;
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;

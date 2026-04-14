@@ -247,6 +247,67 @@ h1:before, .anchor:before {
     text-decoration: none;
 }
 
+.publication-card__button--pending,
+.publication-card__title .publication-card__link--pending {
+    cursor: pointer;
+}
+
+.publication-card--pending-focus {
+    animation: publicationPendingPulse 1.35s ease;
+}
+
+.site-toast {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    width: min(420px, calc(100vw - 2rem));
+    padding: 0.95rem 1rem;
+    border: 1px solid rgba(217, 119, 6, 0.25);
+    border-left: 4px solid #d97706;
+    border-radius: 14px;
+    background: rgba(255, 251, 235, 0.97);
+    box-shadow: 0 18px 36px rgba(15, 23, 42, 0.14);
+    color: #7c2d12;
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    pointer-events: none;
+    z-index: 40;
+}
+
+.site-toast.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.site-toast__title {
+    margin: 0 0 0.28rem;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.site-toast__message {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+@keyframes publicationPendingPulse {
+    0% {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    35% {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 28px rgba(217, 119, 6, 0.12);
+    }
+    100% {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+}
+
 .publication-card__highlight {
     color: #e46c2f;
     font-size: 1.2rem;
@@ -268,5 +329,13 @@ h1:before, .anchor:before {
 
     .publication-card__media {
         justify-content: flex-start;
+    }
+}
+
+@include breakpoint(max-width $small) {
+    .site-toast {
+        right: 0.8rem;
+        bottom: 0.8rem;
+        width: calc(100vw - 1.6rem);
     }
 }

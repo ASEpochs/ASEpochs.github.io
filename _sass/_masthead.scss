@@ -35,6 +35,41 @@
 
 .masthead__menu {
 
+  .masthead__lang-switch {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .masthead__lang-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.25rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid $border-color;
+    border-radius: 999px;
+    background: #f8fafc;
+    color: #4b5563;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #111827;
+      border-color: #cbd5e1;
+      background: #ffffff;
+    }
+
+    &.is-active {
+      color: #1d4ed8;
+      border-color: #bfdbfe;
+      background: #eff6ff;
+    }
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -60,5 +95,4 @@
     font-weight: 700;
   }
 }
-
 

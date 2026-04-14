@@ -1,4 +1,68 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ 'assets/js/main.min.js' | relative_url }}"></script>
+<script>
+  (function() {
+    var toast;
+    var toastTimer;
+    var focusTimer;
+
+    function ensureToast() {
+      if (toast) return toast;
+
+      toast = document.createElement("div");
+      toast.className = "site-toast";
+      toast.setAttribute("role", "status");
+      toast.setAttribute("aria-live", "polite");
+      toast.innerHTML = '<p class="site-toast__title"></p><p class="site-toast__message"></p>';
+      document.body.appendChild(toast);
+      return toast;
+    }
+
+    function showToast(title, message) {
+      var node = ensureToast();
+      node.querySelector(".site-toast__title").textContent = title;
+      node.querySelector(".site-toast__message").textContent = message;
+      node.classList.add("is-visible");
+
+      window.clearTimeout(toastTimer);
+      toastTimer = window.setTimeout(function() {
+        node.classList.remove("is-visible");
+      }, 2600);
+    }
+
+    function focusCard(trigger) {
+      var card = trigger.closest(".publication-card");
+      if (!card) return;
+
+      card.classList.add("publication-card--pending-focus");
+      window.clearTimeout(focusTimer);
+      focusTimer = window.setTimeout(function() {
+        card.classList.remove("publication-card--pending-focus");
+      }, 1400);
+    }
+
+    document.addEventListener("click", function(event) {
+      var trigger = event.target.closest(".js-pending-link");
+      if (!trigger) return;
+
+      event.preventDefault();
+
+      var targetSelector = trigger.getAttribute("data-scroll-target") || trigger.getAttribute("href");
+      var title = trigger.getAttribute("data-pending-title") || "Coming Soon";
+      var message = trigger.getAttribute("data-pending-message") || "This content is not public yet.";
+      var target = targetSelector && targetSelector.charAt(0) === "#" ? document.querySelector(targetSelector) : null;
+
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, "", targetSelector);
+        }
+      }
+
+      focusCard(trigger);
+      showToast(title, message);
+    });
+  })();
+</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

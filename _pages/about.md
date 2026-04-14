@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
 redirect_from:
   - /about/
   - /about.html
@@ -14,6 +15,7 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% include profile-section-styles.html %}
 
 <span class='anchor' id='about-me'></span>
 
@@ -89,7 +91,7 @@ redirect_from:
     <div class="publication-card__media">
       <div class="publication-card__image-frame">
         <div class="publication-card__badge">ECAI 2025</div>
-        <img src="images/Endexformer.png" alt="Endexformer: Hierarchical Endogenous-Exogenous Synergy for Multivariate Time Series Forecasting">
+        <img src="{{ 'images/Endexformer.png' | relative_url }}" alt="Endexformer: Hierarchical Endogenous-Exogenous Synergy for Multivariate Time Series Forecasting">
       </div>
     </div>
     <div class="publication-card__content">
@@ -106,6 +108,7 @@ redirect_from:
       <p class="publication-card__summary">Multivariate Time Series Forecasting | Exogenous Variable</p>
     </div>
   </article>
+</div>
 
 
 
@@ -115,18 +118,18 @@ redirect_from:
     <div class="publication-card__media">
       <div class="publication-card__image-frame">
         <div class="publication-card__badge">Under Review</div>
-        <img src="images/under-review.png" alt="Paper Under Review">
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
       </div>
     </div>
     <div class="publication-card__content">
       <h3 class="publication-card__title">
-        <a href="#">[Title Anonymized for Double-Blind Review]</a>
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Under Review" data-pending-message="This paper is under review. The anonymized title and links will be updated when they can be made public.">[Title Anonymized for Double-Blind Review]</a>
       </h3>
       <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
       <p class="publication-card__venue"><em>Under Review, 2026.</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="#">PDF (Coming Soon)</a>
-        <a class="publication-card__button" href="#">Scholar (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF Coming Soon" data-pending-message="This paper is under review. The PDF will be posted here once it is available for release.">PDF (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Scholar Coming Soon" data-pending-message="This paper is under review. The Google Scholar entry will be added here after publication or public indexing.">Scholar (Coming Soon)</a>
       </div>
       <p class="publication-card__highlight">Targeting : <strong>CCF A</strong></p>
       <p class="publication-card__summary">[Keywords and details temporarily hidden for review process]</p>
@@ -143,18 +146,18 @@ redirect_from:
     <div class="publication-card__media">
       <div class="publication-card__image-frame">
         <div class="publication-card__badge">Under Review</div>
-        <img src="images/under-review.png" alt="Paper Under Review">
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
       </div>
     </div>
     <div class="publication-card__content">
       <h3 class="publication-card__title">
-        <a href="#">[Title Anonymized for Double-Blind Review]</a>
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Under Review" data-pending-message="This paper is under review. The anonymized title and links will be updated when they can be made public.">[Title Anonymized for Double-Blind Review]</a>
       </h3>
       <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
       <p class="publication-card__venue"><em>Under Review, 2026.</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="#">PDF (Coming Soon)</a>
-        <a class="publication-card__button" href="#">Scholar (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF Coming Soon" data-pending-message="This paper is under review. The PDF will be posted here once it is available for release.">PDF (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Scholar Coming Soon" data-pending-message="This paper is under review. The Google Scholar entry will be added here after publication or public indexing.">Scholar (Coming Soon)</a>
       </div>
       <p class="publication-card__highlight">Targeting : <strong>CCF B</strong></p>
       <p class="publication-card__summary">[Keywords and details temporarily hidden for review process]</p>
@@ -170,18 +173,18 @@ redirect_from:
     <div class="publication-card__media">
       <div class="publication-card__image-frame">
         <div class="publication-card__badge">Under Review</div>
-        <img src="images/under-review.png" alt="Paper Under Review">
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
       </div>
     </div>
     <div class="publication-card__content">
       <h3 class="publication-card__title">
-        <a href="#">[Title Anonymized for Double-Blind Review]</a>
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Under Review" data-pending-message="This paper is under review. The anonymized title and links will be updated when they can be made public.">[Title Anonymized for Double-Blind Review]</a>
       </h3>
       <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
       <p class="publication-card__venue"><em>Under Review, 2026.</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="#">PDF (Coming Soon)</a>
-        <a class="publication-card__button" href="#">Scholar (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF Coming Soon" data-pending-message="This paper is under review. The PDF will be posted here once it is available for release.">PDF (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Scholar Coming Soon" data-pending-message="This paper is under review. The Google Scholar entry will be added here after publication or public indexing.">Scholar (Coming Soon)</a>
       </div>
       <p class="publication-card__highlight">Targeting : <strong>CCF B</strong></p>
       <p class="publication-card__summary">[Keywords and details temporarily hidden for review process]</p>
@@ -198,18 +201,18 @@ redirect_from:
     <div class="publication-card__media">
       <div class="publication-card__image-frame">
         <div class="publication-card__badge">Under Review</div>
-        <img src="images/under-review.png" alt="Paper Under Review">
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
       </div>
     </div>
     <div class="publication-card__content">
       <h3 class="publication-card__title">
-        <a href="#">[Title Anonymized for Double-Blind Review]</a>
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Under Review" data-pending-message="This paper is under review. The anonymized title and links will be updated when they can be made public.">[Title Anonymized for Double-Blind Review]</a>
       </h3>
       <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
       <p class="publication-card__venue"><em>Under Review, 2026.</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="#">PDF (Coming Soon)</a>
-        <a class="publication-card__button" href="#">Scholar (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF Coming Soon" data-pending-message="This paper is under review. The PDF will be posted here once it is available for release.">PDF (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Scholar Coming Soon" data-pending-message="This paper is under review. The Google Scholar entry will be added here after publication or public indexing.">Scholar (Coming Soon)</a>
       </div>
       <p class="publication-card__highlight">Targeting : First District of CAS</p>
       <p class="publication-card__summary">[Keywords and details temporarily hidden for review process]</p>
@@ -222,207 +225,6 @@ redirect_from:
 
 
 
-
-<style>
-  .intro-card {
-    padding: 1.35rem 1.45rem;
-    margin: 0.85rem 0 1.8rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #ffffff 0%, #f8fbff 55%, #f8fafc 100%);
-    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
-  }
-
-  .intro-card__lead {
-    margin-bottom: 0.9rem;
-    font-size: 1.04rem;
-    line-height: 1.9;
-  }
-
-  .intro-card__meta {
-    margin: 0.9rem 0 0;
-  }
-
-  .intro-chip-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.65rem;
-    margin-top: 1rem;
-  }
-
-  .intro-chip {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.42rem 0.8rem;
-    border: 1px solid #dbeafe;
-    border-radius: 999px;
-    background: #f8fbff;
-    color: #1e3a8a;
-    font-size: 0.9rem;
-    line-height: 1;
-  }
-
-  .education-stack {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
-    margin: 0.9rem 0 1.8rem;
-  }
-
-  .education-card {
-    padding: 1.15rem 1.2rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 18px;
-    background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
-  }
-
-  .education-card__period {
-    display: inline-block;
-    margin-bottom: 0.7rem;
-    padding: 0.35rem 0.7rem;
-    border-radius: 999px;
-    background: #eff6ff;
-    color: #1d4ed8;
-    font-size: 0.88rem;
-    font-weight: 600;
-  }
-
-  .education-card h3 {
-    margin: 0 0 0.55rem;
-    font-size: 1.05rem;
-  }
-
-  .education-card p:last-child {
-    margin-bottom: 0;
-  }
-
-  .news-feed {
-    display: grid;
-    gap: 0.8rem;
-    margin: 0.9rem 0 2rem;
-  }
-
-  .news-item {
-    display: grid;
-    grid-template-columns: 112px 1fr;
-    gap: 0.95rem;
-    align-items: start;
-    padding: 0.9rem 1rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 14px;
-    background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
-  }
-
-  .news-item__date {
-    display: inline-flex;
-    justify-content: center;
-    padding: 0.35rem 0.6rem;
-    border-radius: 999px;
-    background: #fff7ed;
-    color: #c2410c;
-    font-size: 0.88rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  .news-item__text {
-    line-height: 1.75;
-  }
-
-  .profile-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1rem;
-    margin: 1rem 0 1.5rem;
-  }
-
-  .profile-card {
-    padding: 1.1rem 1.2rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 18px;
-    background: linear-gradient(180deg, #ffffff 0%, #fafaf9 100%);
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
-  }
-
-  .profile-card h3 {
-    margin: 0 0 0.75rem;
-    font-size: 1.05rem;
-  }
-
-  .profile-card ul {
-    margin: 0;
-    padding-left: 1.1rem;
-  }
-
-  .profile-card li {
-    margin-bottom: 0.7rem;
-  }
-
-  .profile-card li:last-child {
-    margin-bottom: 0;
-  }
-
-  .service-box {
-    margin: 1rem 0 1.6rem;
-    padding: 1.2rem 1.35rem;
-    border: 1px solid #dbeafe;
-    border-left: 5px solid #2563eb;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #eff6ff 0%, #f8fbff 55%, #ffffff 100%);
-    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.08);
-  }
-
-  .service-box p:last-child {
-    margin-bottom: 0;
-  }
-
-  .section-heading {
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    margin: 2.3rem 0 1.1rem;
-    padding-bottom: 0.45rem;
-    border-bottom: 1px solid #e5e7eb;
-    font-size: 1.75rem;
-    line-height: 1.2;
-  }
-
-  .section-heading span:first-child {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #eff6ff 0%, #fef3c7 100%);
-    box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.18);
-    font-size: 1.05rem;
-  }
-
-  .competition-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .competition-list li {
-    margin-bottom: 0.9rem;
-    padding: 0.9rem 1rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 14px;
-    background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
-  }
-
-  @media (max-width: 768px) {
-    .news-item {
-      grid-template-columns: 1fr;
-      gap: 0.65rem;
-    }
-  }
-</style>
 
 <span class='anchor' id='honors-and-awards'></span>
 <h1 class="section-heading"><span>🎖</span><span>Selected Honors</span></h1>

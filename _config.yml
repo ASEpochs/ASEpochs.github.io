@@ -23,11 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhiquan Huang"
   avatar           : "images/huang.png"
+  # description      : "Master's Student in Computer Science and Technology at Henan University of Science and Technology"
   bio              : "Wechat: h1911077"
   intro            : "Preparing PhD applications for Fall 2027 and open to research collaboration."
   wechat:
     title          : "WeChat Official Account"
-    description    : "More than 1.8k followers. I regularly share paper reading notes, research insights, and academic updates."
+    description    : "More than 1800 followers. I regularly share paper reading notes, research insights, and academic updates."
     image          : "images/ASEpochs.jpg"
   location         : "Luoyang, China"
   # employer         : "School of Information Engineering, Henan University of Science and Technology"
