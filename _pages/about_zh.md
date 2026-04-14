@@ -60,10 +60,10 @@ lang: zh
   <div class="news-item"><span class="news-item__date">2024.06</span><span class="news-item__text">本科毕业论文获 <strong>校级优秀本科毕业论文一等奖</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.12</span><span class="news-item__text">项目获得 <strong>中国国际大学生创新大赛（2023）全国银奖</strong>，排名 <strong>第 1</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.10</span><span class="news-item__text">项目获得 <strong>第十八届“挑战杯”全国二等奖</strong>，排名 <strong>第 1</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2023.04</span><span class="news-item__text">获评河南科技大学 <strong>十佳五四青年标兵</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">获评河南科技大学 <strong>最美大学生</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">项目晋级 <strong>第 21 届微软“创新杯”亚洲区域决赛</strong>，排名 <strong>第 1</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2023.02</span><span class="news-item__text">项目获得 <strong>第 21 届微软“创新杯”中国区第一名</strong>，排名 <strong>第 1</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2023.04</span><span class="news-item__text">获评河南科技大学 <strong>十佳五四青年标兵（全校10个）</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">获评河南科技大学 <strong>最美大学生（全校10个）</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">项目晋级 <strong>第 21 届微软“创新杯”全球学术科技大赛亚洲区域决赛</strong>，排名 <strong>第 1</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2023.02</span><span class="news-item__text">项目获得 <strong>第 21 届微软“创新杯”全球学术科技大赛中国区第一名</strong>，排名 <strong>第 1</strong>。</span></div>
 </div>
 
 <span class='anchor' id='publications'></span>
