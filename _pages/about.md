@@ -257,9 +257,9 @@ redirect_from:
   <li><em>2025.11</em> Third Prize, <strong>19th Challenge Cup National College Students' Extracurricular Academic Science and Technology Competition</strong>, ranked <strong>1st</strong>.</li>
   <li><em>2025.10</em> Third Prize, <strong>7th China Graduate Artificial Intelligence Innovation Competition (Huawei Cup)</strong>, ranked <strong>1st</strong>.</li>
   <li><em>2024.10</em> Gold Award, <strong>China International College Students' Innovation Competition (2024)</strong>.</li>
+  <li><em>2023.12</em> Silver Award, <strong>China International College Students' Innovation Competition (2023)</strong>, ranked <strong>1st</strong>.</li>
   <li><em>2023.10</em> Second Prize, <strong>18th Challenge Cup National College Students' Extracurricular Academic Science and Technology Competition</strong>, ranked <strong>1st</strong>.</li>
   <li><em>2023.02</em> First Place in China, <strong>21st Microsoft Imagine Cup</strong>, ranked <strong>1st</strong>.</li>
-  <li><em>2022.12</em> Silver Award, <strong>China International College Students' Innovation Competition (2023)</strong>, ranked <strong>1st</strong>.</li>
 </ul>
 
 <span class='anchor' id='academic-service'></span>

@@ -218,9 +218,9 @@ lang: zh
   <li><em>2025.11</em> 第十九届“挑战杯”全国大学生课外学术科技作品竞赛 <strong>全国三等奖</strong>，排名 <strong>第 1</strong>。</li>
   <li><em>2025.10</em> “华为杯”第七届中国研究生人工智能创新大赛 <strong>全国三等奖</strong>，排名 <strong>第 1</strong>。</li>
   <li><em>2024.10</em> 中国国际大学生创新大赛（2024）<strong>全国金奖</strong>。</li>
+  <li><em>2023.12</em> 中国国际大学生创新大赛（2023）<strong>全国银奖</strong>，排名 <strong>第 1</strong>。</li>
   <li><em>2023.10</em> 第十八届“挑战杯”全国大学生课外学术科技作品竞赛 <strong>全国二等奖</strong>，排名 <strong>第 1</strong>。</li>
   <li><em>2023.02</em> 第二十一届微软“创新杯”全球学生科技大赛 <strong>中国区第一名</strong>，排名 <strong>第 1</strong>。</li>
-  <li><em>2022.12</em> 中国国际大学生创新大赛（2023）<strong>全国银奖</strong>，排名 <strong>第 1</strong>。</li>
 </ul>
 
 <span class='anchor' id='academic-service'></span>
