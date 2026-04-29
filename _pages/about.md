@@ -23,7 +23,7 @@ redirect_from:
 <div class="intro-card">
   <p class="intro-card__lead">I am currently a second-year master's student in Computer Science and Technology at the School of Information Engineering, Henan University of Science and Technology, under the supervision of <a href="https://rj.haust.edu.cn/info/1032/4541.htm" target="_blank">Professor Ruijuan Zheng</a>, who serves as the Dean of the School of Software.</p>
   <p>My research interests mainly include time series analysis and deep learning, with a current focus on foundation models for time series and time series benchmarks. <span style="color:red;">At the same time, I am actively preparing for PhD applications for Fall 2027.</span> Beyond my current research areas, I maintain broad academic interests and am open to exploring other directions with strong research value and potential.</p>
-  <p class="intro-card__meta">To date, I have published <span style="color: #d97706;">one paper accepted by ECAI 2025</span> as the first author or student first author, with <span style="color: #2563eb;">four additional papers under review</span>. I have also filed <span style="color: #16a34a;">five invention patents</span>, including one granted patent, and hold four software copyrights.</p>
+  <p class="intro-card__meta">To date, I have published <span style="color: #d97706;">one paper accepted by ECAI 2025</span> as the first author, and <span style="color: #2563eb;">four more papers are currently under review</span> (either as the first author or co-first author). I have also filed <span style="color: #16a34a;">five invention patents</span>, including one granted patent, and hold four software copyrights.</p>
   <div class="intro-chip-row">
     <span class="intro-chip">Time Series</span>
     <span class="intro-chip">Foundation Models</span>
@@ -44,7 +44,7 @@ redirect_from:
 <div class="education-stack">
   <article class="education-card">
     <div class="education-card__period">2024.09 - 2027.06 (expected)</div>
-    <h3>Master's Student in Computer Science and Technology (Artificial Intelligence)</h3>
+    <h3>Master's Student in Computer Science and Technology</h3>
     <p>School of Information Engineering, Henan University of Science and Technology.</p>
     <p><strong>Current standing:</strong> ranked <span style="color:red;"><strong>1st</strong></span> in the program.</p>
   </article>
