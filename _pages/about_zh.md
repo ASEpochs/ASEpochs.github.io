@@ -21,7 +21,7 @@ lang: zh
 <div class="intro-card">
   <p class="intro-card__lead">我目前是河南科技大学信息工程学院计算机科学与技术专业二年级硕士研究生，导师为<a href="https://rj.haust.edu.cn/info/1032/4541.htm" target="_blank">郑瑞娟教授</a>。郑老师同时担任软件学院院长。</p>
   <p>我的研究兴趣主要包括时间序列分析与深度学习，当前重点关注时间序列基础模型以及时间序列基准评测。<span style="color:red;">同时，我也在积极准备 2027 Fall 博士申请。</span> 除了当前研究方向之外，我也对其他具有科研价值与发展潜力的研究问题保持开放和持续关注。</p>
-  <p class="intro-card__meta">截至目前，我已以第一作者发表 <span style="color: #d97706;">1 篇 ECAI 2025 录用论文</span>，另有 <span style="color: #2563eb;">4 篇论文在审(第一作者或共同一作)</span>。此外，我已申请 <span style="color: #16a34a;">6 项发明专利</span>，其中 1 项已授权，并拥有 5 项软件著作权。</p>
+  <p class="intro-card__meta">截至目前，我已以第一作者发表 <span style="color: #d97706;">1 篇 ECAI 2025 录用论文</span>，另有 <span style="color: #2563eb;">5 篇论文在审(第一作者或共同一作)</span>。此外，我已申请 <span style="color: #16a34a;">6 项发明专利</span>，其中 1 项已授权，并拥有 5 项软件著作权。</p>
   <div class="intro-chip-row">
     <span class="intro-chip">时间序列</span>
     <span class="intro-chip">基础模型</span>
