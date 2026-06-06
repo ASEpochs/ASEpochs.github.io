@@ -23,7 +23,7 @@ redirect_from:
 <div class="intro-card">
   <p class="intro-card__lead">I am currently a second-year master's student in Computer Science and Technology at the School of Information Engineering, Henan University of Science and Technology, under the supervision of <a href="https://rj.haust.edu.cn/info/1032/4541.htm" target="_blank">Professor Ruijuan Zheng</a>, who serves as the Dean of the School of Software.</p>
   <p>My research interests mainly include time series analysis and deep learning, with a current focus on foundation models for time series and time series benchmarks. <span style="color:red;">At the same time, I am actively preparing for PhD applications for Fall 2027.</span> Beyond my current research areas, I maintain broad academic interests and am open to exploring other directions with strong research value and potential.</p>
-  <p class="intro-card__meta">To date, I have published <span style="color: #d97706;">one paper accepted by ECAI 2025</span> as the first author, and <span style="color: #2563eb;">four more papers are currently under review</span> (either as the first author or co-first author). I have also filed <span style="color: #16a34a;">five invention patents</span>, including one granted patent, and hold four software copyrights.</p>
+  <p class="intro-card__meta">To date, I have published <span style="color: #d97706;">one paper accepted by ECAI 2025</span> as the first author, and <span style="color: #2563eb;">four more papers are currently under review</span> (either as the first author or co-first author). I have also filed <span style="color: #16a34a;">six invention patents</span>, including one granted patent, and hold five software copyrights.</p>
   <div class="intro-chip-row">
     <span class="intro-chip">Time Series</span>
     <span class="intro-chip">Foundation Models</span>
@@ -224,6 +224,32 @@ redirect_from:
 
 
 
+<div class="publication-list">
+  <article class="publication-card">
+    <div class="publication-card__media">
+      <div class="publication-card__image-frame">
+        <div class="publication-card__badge">Under Review</div>
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
+      </div>
+    </div>
+    <div class="publication-card__content">
+      <h3 class="publication-card__title">
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Under Review" data-pending-message="This paper is under review. The anonymized title and links will be updated when they can be made public.">[Title Anonymized for Double-Blind Review]</a>
+      </h3>
+      <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
+      <p class="publication-card__venue"><em>Under Review, 2026.</em></p>
+      <div class="publication-card__links">
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF Coming Soon" data-pending-message="This paper is under review. The PDF will be posted here once it is available for release.">PDF (Coming Soon)</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="Scholar Coming Soon" data-pending-message="This paper is under review. The Google Scholar entry will be added here after publication or public indexing.">Scholar (Coming Soon)</a>
+      </div>
+      <p class="publication-card__highlight">Targeting : First District of CAS</p>
+      <p class="publication-card__summary">[Keywords and details temporarily hidden for review process]</p>
+    </div>
+  </article>
+</div>
+
+
+
 
 
 <span class='anchor' id='honors-and-awards'></span>
@@ -265,6 +291,7 @@ redirect_from:
 <span class='anchor' id='academic-service'></span>
 <h1 class="section-heading"><span>🤝</span><span>Academic Service</span></h1>
 
+
 <div class="service-box">
-  <p>I have contributed to the peer-review process, either independently or in collaboration with my advisor, for leading venues including <strong>ECAI 2025</strong>, <strong>AAAI 2026</strong>, <strong>CVPR 2026</strong>, <strong>ACL 2026</strong>, and the journal <strong>Pattern Recognition</strong>.</p>
+  <p>I have contributed to the peer-review process, either independently or in collaboration with my advisor, for leading conferences including <strong>ECAI 2025</strong>, <strong>AAAI 2026</strong>, <strong>CVPR 2026</strong>, <strong>ACL 2026</strong>, <strong>ICML 2026</strong>, and <strong>NeurIPS 2026</strong>, as well as the journals <strong>Pattern Recognition</strong> and <strong>Expert Systems with Applications</strong>.</p>
 </div>

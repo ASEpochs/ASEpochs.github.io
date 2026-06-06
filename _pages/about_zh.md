@@ -21,7 +21,7 @@ lang: zh
 <div class="intro-card">
   <p class="intro-card__lead">我目前是河南科技大学信息工程学院计算机科学与技术专业二年级硕士研究生，导师为<a href="https://rj.haust.edu.cn/info/1032/4541.htm" target="_blank">郑瑞娟教授</a>。郑老师同时担任软件学院院长。</p>
   <p>我的研究兴趣主要包括时间序列分析与深度学习，当前重点关注时间序列基础模型以及时间序列基准评测。<span style="color:red;">同时，我也在积极准备 2027 Fall 博士申请。</span> 除了当前研究方向之外，我也对其他具有科研价值与发展潜力的研究问题保持开放和持续关注。</p>
-  <p class="intro-card__meta">截至目前，我已以第一作者发表 <span style="color: #d97706;">1 篇 ECAI 2025 录用论文</span>，另有 <span style="color: #2563eb;">4 篇论文在审(第一作者或共同一作)</span>。此外，我已申请 <span style="color: #16a34a;">5 项发明专利</span>，其中 1 项已授权，并拥有 4 项软件著作权。</p>
+  <p class="intro-card__meta">截至目前，我已以第一作者发表 <span style="color: #d97706;">1 篇 ECAI 2025 录用论文</span>，另有 <span style="color: #2563eb;">4 篇论文在审(第一作者或共同一作)</span>。此外，我已申请 <span style="color: #16a34a;">6 项发明专利</span>，其中 1 项已授权，并拥有 5 项软件著作权。</p>
   <div class="intro-chip-row">
     <span class="intro-chip">时间序列</span>
     <span class="intro-chip">基础模型</span>
@@ -57,9 +57,9 @@ lang: zh
   <div class="news-item"><span class="news-item__date">2025.08</span><span class="news-item__text">一项 <strong>发明专利</strong> 正式获得授权。</span></div>
   <div class="news-item"><span class="news-item__date">2025.07</span><span class="news-item__text">一篇论文被 <strong>ECAI 2025（CCF B）</strong> 接收。</span></div>
   <div class="news-item"><span class="news-item__date">2024.10</span><span class="news-item__text">项目获得 <strong>中国国际大学生创新大赛（2024）全国金奖</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2024.06</span><span class="news-item__text">本科毕业论文获 <strong>校级优秀本科毕业论文一等奖</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2024.06</span><span class="news-item__text">本科毕业论文获 <strong>校级优秀本科毕业论文一等奖 （全校10个）</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.12</span><span class="news-item__text">项目获得 <strong>中国国际大学生创新大赛（2023）全国银奖</strong>，排名 <strong>第 1</strong>。</span></div>
-  <div class="news-item"><span class="news-item__date">2023.10</span><span class="news-item__text">项目获得 <strong>第十八届“挑战杯”全国二等奖</strong>，排名 <strong>第 1</strong>。</span></div>
+  <div class="news-item"><span class="news-item__date">2023.10</span><span class="news-item__text">项目获得 <strong>第十八届“挑战杯”全国大学生课外学术科技作品竞赛二等奖</strong>，排名 <strong>第 1</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.04</span><span class="news-item__text">获评河南科技大学 <strong>十佳五四青年标兵（全校10个）</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">获评河南科技大学 <strong>最美大学生（全校10个）</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2023.03</span><span class="news-item__text">项目晋级 <strong>第 21 届微软“创新杯”全球学术科技大赛亚洲区域决赛</strong>，排名 <strong>第 1</strong>。</span></div>
@@ -189,6 +189,31 @@ lang: zh
   </article>
 </div>
 
+
+<div class="publication-list">
+  <article class="publication-card">
+    <div class="publication-card__media">
+      <div class="publication-card__image-frame">
+        <div class="publication-card__badge">审稿中</div>
+        <img src="{{ 'images/under-review.png' | relative_url }}" alt="Paper Under Review">
+      </div>
+    </div>
+    <div class="publication-card__content">
+      <h3 class="publication-card__title">
+        <a class="publication-card__link--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="论文审稿中" data-pending-message="这篇论文当前仍在审稿中，标题与链接会在可以公开后更新。">[Title Anonymized for Double-Blind Review]</a>
+      </h3>
+      <p class="publication-card__authors"><strong>Zhiquan Huang</strong>, et al.</p>
+      <p class="publication-card__venue"><em>审稿中，2026</em></p>
+      <div class="publication-card__links">
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="PDF 待更新" data-pending-message="这篇论文当前仍在审稿中，PDF 会在允许公开后补充到这里。">PDF（待更新）</a>
+        <a class="publication-card__button publication-card__button--pending js-pending-link" href="#publications" target="_self" data-scroll-target="#publications" data-pending-title="谷歌学术待更新" data-pending-message="这篇论文当前仍在审稿中，谷歌学术链接会在公开收录后补充到这里。">谷歌学术（待更新）</a>
+      </div>
+      <p class="publication-card__highlight">目标会议/期刊：<strong>CCF C / 中科院一区</strong></p>
+      <p class="publication-card__summary">相关细节因双盲评审暂不公开。</p>
+    </div>
+  </article>
+</div>
+
 <span class='anchor' id='honors-and-awards'></span>
 <h1 class="section-heading"><span>🎖</span><span>荣誉奖项</span></h1>
 
@@ -227,6 +252,6 @@ lang: zh
 <h1 class="section-heading"><span>🤝</span><span>学术服务</span></h1>
 
 <div class="service-box">
-  <p>我曾独立或协助导师参与多个国际会议与期刊的审稿工作，包括 <strong>ECAI 2025</strong>、<strong>AAAI 2026</strong>、<strong>CVPR 2026</strong>、<strong>ACL 2026</strong> 以及期刊 <strong>Pattern Recognition</strong>。</p>
+  <p>我曾独立或协助导师参与多个国际会议与期刊的审稿工作，包括 <strong>ECAI 2025</strong>、<strong>AAAI 2026</strong>、<strong>CVPR 2026</strong>、<strong>ACL 2026</strong>、<strong>ICML 2026</strong>、<strong>NeurIPS 2026</strong> 以及期刊 <strong>Pattern Recognition 、Expert Systems With Applications</strong>。</p>
   <p>这些审稿经历也进一步提升了我对研究质量、实验规范以及学术写作标准的理解。</p>
 </div>
