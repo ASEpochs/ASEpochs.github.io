@@ -82,14 +82,16 @@
 }
 
 .author__avatar {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   text-align: center;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
-    display: block;
+    display: flex;
     width: auto;
     height: auto;
   }
