@@ -5,11 +5,13 @@
 {% if current_lang == 'zh' %}
   {% assign website_label = "个人主页" %}
   {% assign email_label = "邮箱" %}
+  {% assign cv_label = "简历" %}
   {% assign github_label = "GitHub" %}
   {% assign scholar_label = "Google Scholar" %}
 {% else %}
   {% assign website_label = "Website" %}
   {% assign email_label = "Email" %}
+  {% assign cv_label = "CV" %}
   {% assign github_label = "Github" %}
   {% assign scholar_label = "Google Scholar" %}
 {% endif %}
@@ -40,6 +42,9 @@
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>{{ email_label }}</span></a></li>
+      {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i><span>{{ cv_label }}</span></a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -135,6 +140,9 @@
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.cv %}
+        <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
