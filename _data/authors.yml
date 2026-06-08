@@ -2,7 +2,8 @@ zh:
   name: "黄志泉"
   avatar: "images/huang.png"
   description: "河南科技大学计算机科学与技术专业硕士研究生"
-  bio: "微信：h1911077"
+  # bio: "微信：h1911077"
+  wechat_id: "h1911077"
   intro: "正在准备 2027 Fall 博士申请，并期待未来的科研交流与合作机会。"
   wechat:
     title: "微信公众号"

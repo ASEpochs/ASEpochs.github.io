@@ -24,7 +24,8 @@ author:
   name             : "Zhiquan Huang"
   avatar           : "images/huang.png"
   # description      : "Master's Student in Computer Science and Technology at Henan University of Science and Technology"
-  bio              : "Wechat: h1911077"
+  # bio              : "Wechat: h1911077"
+  wechat_id        : "h1911077"
   intro            : "Preparing PhD applications for Fall 2027 and open to research collaboration."
   wechat:
     title          : "WeChat Official Account"

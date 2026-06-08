@@ -8,12 +8,20 @@
   {% assign cv_label = "简历" %}
   {% assign github_label = "GitHub" %}
   {% assign scholar_label = "Google Scholar" %}
+  {% assign mobile_scholar_label = "Scholar" %}
+  {% assign wechat_label = "微信" %}
+  {% assign wechat_id_label = "微信号" %}
+  {% assign close_label = "关闭" %}
 {% else %}
   {% assign website_label = "Website" %}
   {% assign email_label = "Email" %}
   {% assign cv_label = "CV" %}
   {% assign github_label = "Github" %}
   {% assign scholar_label = "Google Scholar" %}
+  {% assign mobile_scholar_label = "Scholar" %}
+  {% assign wechat_label = "WeChat" %}
+  {% assign wechat_id_label = "WeChat ID" %}
+  {% assign close_label = "Close" %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
@@ -45,6 +53,9 @@
       {% endif %}
       {% if author.cv %}
         <li><a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i><span>{{ cv_label }}</span></a></li>
+      {% endif %}
+      {% if author.wechat_id %}
+        <li><a href="#wechat-contact" class="js-wechat-modal-trigger" aria-haspopup="dialog"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i><span>{{ wechat_label }}</span></a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -136,106 +147,109 @@
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
-        <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
+        <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span>{{ website_label }}</span></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>{{ email_label }}</span></a>
+      {% endif %}
+      {% if author.wechat_id %}
+        <a href="#wechat-contact" class="js-wechat-modal-trigger" aria-haspopup="dialog"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i><span>{{ wechat_label }}</span></a>
       {% endif %}
       {% if author.cv %}
-        <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+        <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i><span>{{ cv_label }}</span></a>
       {% endif %}
       {% if author.keybase %}
-        <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
+        <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i><span>Keybase</span></a>
       {% endif %}
        {% if author.researchgate %}
-        <a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
+        <a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a>
       {% endif %}
       {% if author.twitter %}
-        <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span>Twitter</span></a>
       {% endif %}
       {% if author.facebook %}
-        <a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span>Facebook</span></a>
       {% endif %}
       {% if author.google_plus %}
-        <a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i></a>
+        <a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span>Google+</span></a>
       {% endif %}
       {% if author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
       {% endif %}
       {% if author.dblp %}
-        <a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i></a>
+        <a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i><span>DBLP</span></a>
       {% endif %}
       {% if author.xing %}
-        <a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i></a>
+        <a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i><span>XING</span></a>
       {% endif %}
       {% if author.instagram %}
-        <a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
       {% endif %}
       {% if author.tumblr %}
-        <a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i></a>
+        <a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i><span>Tumblr</span></a>
       {% endif %}
       {% if author.bitbucket %}
-        <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
+        <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span>Bitbucket</span></a>
       {% endif %}
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span>{{ github_label }}</span></a>
       {% endif %}
       {% if author.stackoverflow %}
-        <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
+        <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span>Stackoverflow</span></a>
       {% endif %}
       {% if author.lastfm %}
-        <a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i></a>
+        <a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i><span>Last.fm</span></a>
       {% endif %}
       {% if author.dribbble %}
-        <a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble-square" aria-hidden="true"></i></a>
+        <a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble-square" aria-hidden="true"></i><span>Dribbble</span></a>
       {% endif %}
       {% if author.pinterest %}
-        <a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i></a>
+        <a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
       {% endif %}
       {% if author.foursquare %}
-        <a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare" aria-hidden="true"></i></a>
+        <a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare" aria-hidden="true"></i><span>Foursquare</span></a>
       {% endif %}
       {% if author.steam %}
-        <a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i></a>
+        <a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i><span>Steam</span></a>
       {% endif %}
       {% if author.youtube %}
-        <a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
       {% endif %}
       {% if author.soundcloud %}
-        <a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i></a>
+        <a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i><span>Soundcloud</span></a>
       {% endif %}
       {% if author.weibo %}
-        <a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i></a>
+        <a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i><span>Weibo</span></a>
       {% endif %}
       {% if author.flickr %}
-        <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i></a>
+        <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i><span>Flickr</span></a>
       {% endif %}
       {% if author.codepen %}
-        <a href="https://codepen.io/{{ author.codepen }}"><i class="fab fa-fw fa-codepen" aria-hidden="true"></i></a>
+        <a href="https://codepen.io/{{ author.codepen }}"><i class="fab fa-fw fa-codepen" aria-hidden="true"></i><span>CodePen</span></a>
       {% endif %}
       {% if author.vine %}
-        <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
+        <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i><span>Vine</span></a>
       {% endif %}
       {% if author.googlescholar %}
-        <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+        <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i><span>{{ mobile_scholar_label }}</span></a>
       {% endif %}
       {% if author.pubmed %}
-        <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
+        <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i><span>PubMed</span></a>
       {% endif %}
       {% if author.orcid %}
-        <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i></a>
+        <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i><span>ORCID</span></a>
       {% endif %}
       {% if author.impactstory %}
-        <a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i></a>
+        <a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i><span>Impactstory</span></a>
       {% endif %}
       {% if author.wikipedia %}
-        <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+        <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i><span>Wikipedia</span></a>
       {% endif %}
     </div>
   </div>
 
   {% if author.wechat %}
-    <div class="author__wechat">
+    <div class="author__wechat" id="wechat-official-account">
       {% if author.wechat.title %}
         <h4 class="author__wechat-title">{{ author.wechat.title }}</h4>
       {% endif %}
@@ -245,6 +259,20 @@
       {% if author.wechat.image %}
         <img src="{{ author.wechat.image | relative_url }}" class="author__wechat-image" alt="{{ author.wechat.title | default: 'WeChat QR code' }}">
       {% endif %}
+    </div>
+  {% endif %}
+
+  {% if author.wechat_id %}
+    <div class="author__wechat-modal" id="wechat-contact" aria-hidden="true">
+      <div class="author__wechat-modal-backdrop" data-wechat-modal-close></div>
+      <div class="author__wechat-dialog" role="dialog" aria-modal="true" aria-labelledby="wechat-contact-title">
+        <button type="button" class="author__wechat-close" data-wechat-modal-close aria-label="{{ close_label }}">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <h4 class="author__wechat-dialog-title" id="wechat-contact-title">{{ wechat_label }}</h4>
+        <p class="author__wechat-id-label">{{ wechat_id_label }}</p>
+        <p class="author__wechat-id">{{ author.wechat_id }}</p>
+      </div>
     </div>
   {% endif %}
 </div>
