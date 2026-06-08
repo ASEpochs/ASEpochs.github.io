@@ -98,6 +98,7 @@
     width: 118px;
     max-width: 36vw;
     min-width: 92px;
+    margin: 0 auto;
     border-radius: 50%;
 
     @include breakpoint($large) {
