@@ -74,8 +74,35 @@
 
   .news-feed {
     display: grid;
+    align-content: start;
     gap: 0.8rem;
+    max-height: 31rem;
     margin: 0.9rem 0 2rem;
+    padding: 0.15rem 0.65rem 0.15rem 0.1rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-color: #cbd5e1 transparent;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+
+  .news-feed:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 4px;
+    border-radius: 14px;
+  }
+
+  .news-feed::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .news-feed::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: #cbd5e1;
+  }
+
+  .news-feed::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
   }
 
   .news-item {
@@ -192,6 +219,11 @@
   }
 
   @media (max-width: 768px) {
+    .news-feed {
+      max-height: 27rem;
+      padding-right: 0.35rem;
+    }
+
     .news-item {
       grid-template-columns: 1fr;
       gap: 0.65rem;

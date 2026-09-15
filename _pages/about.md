@@ -61,7 +61,8 @@ redirect_from:
 
 <span class='anchor' id='news'></span>
 <h1 class="section-heading"><span>🔥</span><span>News</span></h1>
-<div class="news-feed">
+<div class="news-feed" tabindex="0" role="region" aria-label="News archive">
+  <div class="news-item"><span class="news-item__date">2026.09</span><span class="news-item__text">I received the <strong>National Scholarship for Graduate Students</strong> for the second time.</span></div>
   <div class="news-item"><span class="news-item__date">2026.8.31</span><span class="news-item__text">Our paper was accepted for publication in <strong>Knowledge-Based Systems</strong> (<strong>CAS Q1 Top Journal</strong>).</span></div>
   <div class="news-item"><span class="news-item__date">2025.10</span><span class="news-item__text">Our project won the <strong>National Third Prize</strong> in the <strong>19th Challenge Cup</strong>, ranked <strong>1st</strong>.</span></div>
   <div class="news-item"><span class="news-item__date">2025.10</span><span class="news-item__text">Our project won the <strong>National Third Prize</strong> in the <strong>7th China Graduate AI Innovation Competition (Huawei Cup)</strong>, ranked <strong>1st</strong>.</span></div>
@@ -127,7 +128,7 @@ redirect_from:
       <p class="publication-card__authors">Linjing Xue<sup>†</sup>, <strong>Zhiquan Huang</strong><sup>†</sup>, Jiazhe Wang, Jiayi Chang, Xiaozheng Li, Ruijuan Zheng<sup>*</sup></p>
       <p class="publication-card__venue"><em>Knowledge-Based Systems, 2026.</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="https://scholar.google.com/scholar?q=%22Beyond+Static+Frequency+Decomposition%22">Scholar</a>
+        <a class="publication-card__button" href="https://scholar.google.com/scholar?hl=zh-TW&amp;as_sdt=0%2C5&amp;q=Beyond+static+frequency+decomposition%3A+Dynamic+time+frequency+mixing+for+time+series+forecasting&amp;btnG=">Scholar</a>
       </div>
       <p class="publication-card__highlight"><strong>CAS Q1 Top Journal</strong></p>
       <p class="publication-card__summary"><strong>Co-first author (second-listed).</strong> Supervised an undergraduate student through writing and submission, led the implementation and experimental design, and contributed substantially to revision. <sup>†</sup>Equal contribution; <sup>*</sup>corresponding author.</p>
@@ -263,6 +264,7 @@ redirect_from:
   <div class="profile-card">
     <h3>Scholarships</h3>
     <ul>
+      <li><em>2026.09</em> Recipient of the <strong>National Scholarship for Graduate Students</strong> (second award).</li>
       <li><em>2025.09</em> Recipient of the <strong>National Scholarship for Graduate Students</strong>.</li>
       <li><em>2023.11</em> Recipient of the <strong>National Encouragement Scholarship</strong>.</li>
       <li><em>2022.11</em> Recipient of the <strong>National Encouragement Scholarship</strong>.</li>

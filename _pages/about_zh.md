@@ -49,7 +49,8 @@ lang: zh
 
 <span class='anchor' id='news'></span>
 <h1 class="section-heading"><span>🔥</span><span>最新动态</span></h1>
-<div class="news-feed">
+<div class="news-feed" tabindex="0" role="region" aria-label="历史动态">
+  <div class="news-item"><span class="news-item__date">2026.09</span><span class="news-item__text">再次获得 <strong>研究生国家奖学金</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2026.8.31</span><span class="news-item__text">我们的论文被 <strong>Knowledge-Based Systems（中科院一区 Top）</strong> 接收。</span></div>
   <div class="news-item"><span class="news-item__date">2025.10</span><span class="news-item__text">项目获得 <strong>第十九届“挑战杯”全国大学生课外学术科技作品竞赛全国三等奖</strong>，排名 <strong>第 1</strong>。</span></div>
   <div class="news-item"><span class="news-item__date">2025.10</span><span class="news-item__text">项目获得 <strong>“华为杯”第七届中国研究生人工智能创新大赛全国三等奖</strong>，排名 <strong>第 1</strong>。</span></div>
@@ -107,7 +108,7 @@ lang: zh
       <p class="publication-card__authors">Linjing Xue<sup>†</sup>, <strong>Zhiquan Huang</strong><sup>†</sup>, Jiazhe Wang, Jiayi Chang, Xiaozheng Li, Ruijuan Zheng<sup>*</sup></p>
       <p class="publication-card__venue"><em>Knowledge-Based Systems，2026</em></p>
       <div class="publication-card__links">
-        <a class="publication-card__button" href="https://scholar.google.com/scholar?q=%22Beyond+Static+Frequency+Decomposition%22">谷歌学术</a>
+        <a class="publication-card__button" href="https://scholar.google.com/scholar?hl=zh-TW&amp;as_sdt=0%2C5&amp;q=Beyond+static+frequency+decomposition%3A+Dynamic+time+frequency+mixing+for+time+series+forecasting&amp;btnG=">谷歌学术</a>
       </div>
       <p class="publication-card__highlight"><strong>中科院一区 Top</strong></p>
       <p class="publication-card__summary"><strong>共同一作（共同第一作者第二顺位）。</strong>主要负责代码实现、实验设计及全文修改，并指导本科生完成论文撰写与投稿。<sup>†</sup>共同第一作者；<sup>*</sup>通讯作者。</p>
@@ -229,6 +230,7 @@ lang: zh
   <div class="profile-card">
     <h3>奖学金</h3>
     <ul>
+      <li><em>2026.09</em> 研究生国家奖学金。</li>
       <li><em>2025.09</em> 研究生国家奖学金。</li>
       <li><em>2023.11</em> 国家励志奖学金。</li>
       <li><em>2022.11</em> 国家励志奖学金。</li>
