@@ -68,6 +68,12 @@
       var modal = modalSelector && modalSelector.charAt(0) === "#" ? document.querySelector(modalSelector) : null;
       if (!modal) return;
 
+      // Keep the fixed-position overlay relative to the viewport rather than
+      // the transformed sidebar, which otherwise constrains the dialog width.
+      if (modal.parentNode !== document.body) {
+        document.body.appendChild(modal);
+      }
+
       activeWechatTrigger = trigger;
       modal.classList.add("is-visible");
       modal.setAttribute("aria-hidden", "false");
