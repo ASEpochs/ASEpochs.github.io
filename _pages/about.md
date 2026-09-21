@@ -22,13 +22,13 @@ redirect_from:
 <h1 class="section-heading"><span>👋</span><span>About Me</span></h1>
 <div class="intro-card">
   <p class="intro-card__lead">I am currently a third-year master's student in Computer Science and Technology at the School of Information Engineering, Henan University of Science and Technology, under the supervision of <a href="https://rj.haust.edu.cn/info/1032/4541.htm" target="_blank">Professor Ruijuan Zheng</a>, who serves as the Dean of the School of Software.</p>
-  <p>My research interests lie in time series analysis, deep learning, and AI agents, with a current focus on time series foundation models and benchmark evaluation, as well as Agent Memory, long-term memory mechanisms, and agentic system design. <span style="color:red;">At the same time, I am actively preparing for PhD applications for Fall 2027.</span> Beyond my current research areas, I maintain broad academic interests and am open to exploring other directions with strong research value and potential.</p>
+  <p>My research interests lie in time series analysis, deep learning, and AI agents, with a current focus on time series foundation models and benchmark evaluation, as well as Agent Memory, long-term memory mechanisms, and agentic system design. Beyond my current research areas, I maintain broad academic interests and am open to exploring other directions with strong research value and potential.</p>
   <p class="intro-card__meta">To date, I have published <span style="color: #d97706;">one first-authored paper at ECAI 2025 (ICORE A | CCF B)</span> and <span style="color: #d97706;">one co-first-authored paper in Knowledge-Based Systems (CAS Q1 Top Journal)</span>; <span style="color: #2563eb;">four additional papers are under review</span>. I have also filed <span style="color: #16a34a;">six invention patents</span>, including one granted patent, and hold five software copyrights.</p>
   <div class="intro-chip-row">
     <span class="intro-chip">Time Series</span>
     <span class="intro-chip">Foundation Models</span>
     <span class="intro-chip">Deep Learning</span>
-    <span class="intro-chip">PhD Application 2027</span>
+    <span class="intro-chip">AI Agents</span>
   </div>
 </div>
 
