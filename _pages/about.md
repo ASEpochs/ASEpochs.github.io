@@ -148,8 +148,8 @@ redirect_from:
       <h3 class="publication-card__title">
         <a href="https://arxiv.org/abs/2608.19966">Rethinking Patch Based Multivariate Time Series Forecasting with Semantic Structured Partitioning</a>
       </h3>
-      <p class="publication-card__authors">Zhiquan Huang<sup>†</sup>, <strong>Jiazhe Wang</strong><sup>†</sup>, Linjing Xue, Ming Liu, Meiwen Li, Ruijuan Zheng</p>
-      <p class="publication-card__venue"><em>Under Review at Engineering Applications of Artificial Intelligence; arXiv preprint, 2026.</em></p>
+      <p class="publication-card__authors"><strong>Zhiquan Huang</strong><sup>†</sup>, Jiazhe Wang<sup>†</sup>, Linjing Xue, Ming Liu, Meiwen Li, Ruijuan Zheng</p>
+      <p class="publication-card__venue"><em>Under Review at Applied Soft Computing; arXiv preprint, 2026.</em></p>
       <div class="publication-card__links">
         <a class="publication-card__button" href="https://arxiv.org/abs/2608.19966">arXiv</a>
         <a class="publication-card__button" href="https://arxiv.org/pdf/2608.19966">PDF</a>
