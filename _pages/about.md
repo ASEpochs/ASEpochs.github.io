@@ -148,7 +148,7 @@ redirect_from:
       <h3 class="publication-card__title">
         <a href="https://arxiv.org/abs/2608.19966">Rethinking Patch Based Multivariate Time Series Forecasting with Semantic Structured Partitioning</a>
       </h3>
-      <p class="publication-card__authors">Jiazhe Wang<sup>†</sup>, <strong>Zhiquan Huang</strong><sup>†</sup>, Linjing Xue, Ming Liu, Meiwen Li, Ruijuan Zheng</p>
+      <p class="publication-card__authors">Zhiquan Huang<sup>†</sup>, <strong>Jiazhe Wang</strong><sup>†</sup>, Linjing Xue, Ming Liu, Meiwen Li, Ruijuan Zheng</p>
       <p class="publication-card__venue"><em>Under Review at Engineering Applications of Artificial Intelligence; arXiv preprint, 2026.</em></p>
       <div class="publication-card__links">
         <a class="publication-card__button" href="https://arxiv.org/abs/2608.19966">arXiv</a>
@@ -156,7 +156,7 @@ redirect_from:
         <a class="publication-card__button" href="https://scholar.google.com/scholar?q=%22Rethinking+Patch+Based+Multivariate+Time+Series+Forecasting%22">Scholar</a>
       </div>
       <p class="publication-card__highlight">Target Journal: <strong>CAS Q1 Top</strong></p>
-      <p class="publication-card__summary"><strong>Co-first author (second-listed).</strong> Supervised the undergraduate first author and contributed to the research conception, implementation, experimental design, analysis, and manuscript revision. <sup>†</sup>Equal contribution.</p>
+      <p class="publication-card__summary"><strong>First author.</strong> Validate the limitations of patch-based methods in time series forecasting and propose an improved approach based on semantic structure partitioning. <sup>†</sup>Equal contribution.</p>
     </div>
   </article>
 </div>

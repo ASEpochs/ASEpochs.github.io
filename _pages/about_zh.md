@@ -135,8 +135,8 @@ lang: zh
         <a class="publication-card__button" href="https://arxiv.org/pdf/2608.19966">PDF</a>
         <a class="publication-card__button" href="https://scholar.google.com/scholar?q=%22Rethinking+Patch+Based+Multivariate+Time+Series+Forecasting%22">谷歌学术</a>
       </div>
-      <p class="publication-card__highlight">目标期刊：<strong>中科院一区 Top</strong></p>
-      <p class="publication-card__summary"><strong>共同一作（共同第一作者第二顺位）。</strong>指导本科生第一作者完成论文撰写与投稿，主要参与研究构思、代码实现、实验设计、结果分析及全文修改润色。<sup>†</sup>共同第一作者。</p>
+      <p class="publication-card__highlight">目标期刊：<strong>中科院二区 Top</strong></p>
+      <p class="publication-card__summary"><strong>第一作者。</strong>验证Patch-based方法在时间序列预测中的局限性，并提出基于语义结构划分的改进方法。<sup>†</sup>共同第一作者。</p>
     </div>
   </article>
 </div>
